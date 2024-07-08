@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+}
+
+:root {
+    --color-gold: #FFD100;
+    --color-red: #941B0C;
+    --color-black: #000000;
+    --color-gray: #808080;
+    --color-silver: #F3F3F3;
+    --color-white: #FFFFFF;
+}
+
+.cards {
+    width: 760px;
+    height: 454px;
+    background-color: var(--color-black);
+    padding: 50px;
+    display: flex;
+    gap: 60px;
+}
+
+.discount {
+    position: absolute;
+    top: 25px;
+    left: 430px;
+}
+
+.left-card {
+    background-color: var(--color-white);
+    width: 350px;
+    height: 434px;
+    border-radius: 10px;
+}
+
+.right-card {
+    background-color: var(--color-gold);
+    width: 350px;
+    height: 434px;
+    border-radius: 10px;
+}
+
+.body {
+    line-height: 28.8px;
+}
+
+.black-text {
+    text-transform: capitalize;
+    width: 290px;
+    height: 58px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.8px;
+    color: var(--color-black);
+    margin-left: 30px;
+}
+
+.gray-text {
+    color: var(--color-gray);
+    width: 290px;
+    height: 25px;
+    opacity: 70%;
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: var(--color-gray);
+    font-size: 18px;
+    width: 290px;
+    height: 22px;
+    text-align: right;
+    position: relative;
+    left: 30px;
+    top: 55px;
+}
+
+.new-price {
+    width: 290px;
+    height: 52px;
+    left: 30px;
+    font-weight: 500;
+    font-size: 43px;
+    line-height: 52px;
+    color: var(--color-red);
+    text-align: right;
+    position: relative;
+    top: 55px;
+}
+
+.img-logo {
+    left: 52px;
+    position: relative;
+}
+
+.img-basket {
+    background-color: var(--color-black);
+    width: 45px;
+    height: 31px;
+}
+
+.basket {
+    background-color: var(--color-black);
+    width: 100px;
+    height: 100px;
+    left: -8px; 
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
